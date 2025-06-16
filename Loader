@@ -1,0 +1,20 @@
+-- Check the Place ID
+
+if game.PlaceId == 28586816 then
+ 
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Myoosowo/Get-Eaten/refs/heads/main/Get%20eaten%20Script"))()
+
+
+
+elseif game.PlaceId == 662417684 then
+
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Myoosowo/Lucky-BLocks/refs/heads/main/ScriprLucky"))()
+
+
+
+else
+    print("Place ID does not match. Script will not be loaded.")
+end
