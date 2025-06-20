@@ -19,6 +19,8 @@ elseif game.PlaceId == 15999929350 then
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Myoosowo/Tower/refs/heads/main/Slap"))()
 
+elseif game.PlaceId == 87854376962069 then 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Myoosowo/bridge/refs/heads/main/decrypth.txt"))()
 
 else
     print("Place ID does not match. Script will not be loaded.")
