@@ -22,6 +22,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Myoosowo/Tower/refs/h
 elseif game.PlaceId == 87854376962069 then 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Myoosowo/bridge/refs/heads/main/decrypth.txt"))()
 
+
+elseif game.PlaceId == 126884695634066 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Myoosowo/Grow-A-Garden/refs/heads/main/g"))()
+
 else
     print("Place ID does not match. Script will not be loaded.")
 end
